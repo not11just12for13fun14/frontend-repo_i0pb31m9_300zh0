@@ -7,6 +7,7 @@ import Faq from './components/Faq'
 import Testimonials from './components/Testimonials'
 import Contact from './components/Contact'
 import Awards from './components/Awards'
+import Envelope from './components/Envelope'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Hero />
         <Awards />
         <Gallery />
+        <Envelope />
         <Craft />
         <ParallaxDivider />
         <Testimonials />
