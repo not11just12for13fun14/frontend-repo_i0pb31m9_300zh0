@@ -1,9 +1,12 @@
 import Nav from './components/Nav'
 import Hero from './components/Hero'
-import Features from './components/Features'
-import Process from './components/Process'
+import Gallery from './components/Gallery'
+import Craft from './components/Craft'
+import ParallaxDivider from './components/ParallaxDivider'
+import Faq from './components/Faq'
 import Testimonials from './components/Testimonials'
 import Contact from './components/Contact'
+import Awards from './components/Awards'
 
 function App() {
   return (
@@ -11,9 +14,12 @@ function App() {
       <Nav />
       <main>
         <Hero />
-        <Features />
-        <Process />
+        <Awards />
+        <Gallery />
+        <Craft />
+        <ParallaxDivider />
         <Testimonials />
+        <Faq />
         <Contact />
         <footer className="py-16 border-t border-slate-200">
           <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
@@ -21,7 +27,7 @@ function App() {
             <div className="flex items-center gap-6 text-sm text-slate-600">
               <a href="#" className="hover:text-slate-900">Impressum</a>
               <a href="#" className="hover:text-slate-900">Datenschutz</a>
-              <a href="#kontakt" className="inline-flex items-center rounded-full bg-slate-900 text-white px-4 py-2 text-sm">Anfrage</a>
+              <a href="#kontakt" className="inline-flex items-center rounded-full bg-slate-900 text-white px-4 py-2 text-sm hover:-translate-y-0.5 transition">Anfrage</a>
             </div>
           </div>
         </footer>
